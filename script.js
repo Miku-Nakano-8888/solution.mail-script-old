@@ -5,7 +5,7 @@ $("form189848402").submit(function() { //Change
   var th = $(this);
   $.ajax({
     type: "POST",
-    url: "order.khaletsky.gleb@gmail", //Change
+    url: "post@gmail", //Change
     data: th.serialize()
   }).done(function() {
     alert("Thank you!");
